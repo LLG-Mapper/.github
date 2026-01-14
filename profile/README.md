@@ -129,14 +129,14 @@ LLG-Mapper/
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/SimonPucheu/LLG-Mapper.git
-cd LLG-Mapper
+git clone https://github.com/LLG-Mapper/api.git
+cd api
 ```
+Or clone using GitHub Desktop
 
 #### 2. Set Up Python Backend
 ```bash
-# Navigate to API directory
-cd api
+# In project root (./api)
 
 # Create virtual environment
 python -m venv venv
@@ -146,9 +146,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Initialize database
-python scripts/dbCreate.bat  # Windows
+.\scripts\dbCreate  # Windows
 # or
 bash scripts/dbCreate.sh     # Linux/Mac
+
+# Seed data
+python -m app.seeds.seed.py
 ```
 
 #### 3. Start the API Server
@@ -158,19 +161,6 @@ python app.py
 ```
 
 The API will be available at `http://localhost:5000`
-
-#### 4. Open Frontend
-```bash
-# From project root, open in your browser
-index.html
-```
-
-Or serve it with a local server:
-```bash
-# Using Python's built-in server
-python -m http.server 8000
-# Then open http://localhost:8000
-```
 
 ---
 
