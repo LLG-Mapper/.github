@@ -14,11 +14,10 @@ Made for **students** by **students**.
 - Students struggle to find available rooms during free periods or breaks
 - No centralized system to check room availability in real-time
 - Difficulty navigating which rooms have specific features (computers, projectors, etc.)
-- Manual room booking processes are inefficient
 
 ### Solution
 LLG-Mapper provides a **user-friendly platform** where students can:
-- 🗺️ View a visual map of their high school buildings
+- 🗺️ Visual map of their high school buildings
 - ⏰ Check room availability at specific times
 - 🔍 Filter rooms by features, capacity, and location
 - 📋 See detailed room information instantly
@@ -27,27 +26,16 @@ LLG-Mapper provides a **user-friendly platform** where students can:
 ---
 
 ## ✨ Key Features
-
-### For Students
 - **Interactive Map** - Visual representation of buildings and room layouts
 - **Real-Time Availability** - Check if a room is free right now or at a specific time
 - **Smart Filtering** - Find rooms by:
   - Building location
-  - Floor number
+  - Floor
   - Features (projector, computers, whiteboard, etc.)
   - Capacity
   - Availability status
 - **Room Details** - See capacity, features, and class schedule
 - **Quick Navigation** - Intuitive UI for fast room discovery
-
-### For Administrators  
-- **Complete Management System** - Manage all aspects via REST API:
-  - Buildings and room configuration
-  - Teacher and group management
-  - Class scheduling
-  - Subject and feature management
-- **Robust Validation** - Prevent scheduling conflicts and data errors
-- **Relationship Management** - Track complex relationships between entities
 
 ---
 
@@ -75,7 +63,6 @@ LLG-Mapper provides a **user-friendly platform** where students can:
 ---
 
 ## 📞 Support & Questions
-
 For issues or questions about the API or project setup, please open an issue on the repository.
 
 ---
